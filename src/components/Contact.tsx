@@ -22,7 +22,7 @@ export default function Contact() {
     })
       .then(() => alert("Message sent!"))
       .catch((error) => alert(error));
-    window.location.reload(true);
+    window.location.reload();
   }
 
   return (
