@@ -63,7 +63,7 @@ export default function Contact() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">+91 939-868-9812</p>
+              <p className="leading-relaxed">+91 939-104-7937</p>
             </div>
           </div>
         </div>
