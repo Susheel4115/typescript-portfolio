@@ -4,7 +4,7 @@ export const projects = [
     subtitle: "MERN Stack",
     description: "Github page for source code.",
     image:
-      "https://www.webrexstudio.com/wp-content/uploads/2019/05/react-js-image.png",
+      "https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://github.com/Susheel4115/React-assignments",
   },
   {
