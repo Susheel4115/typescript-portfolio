@@ -11,10 +11,11 @@ export default function About() {
             apps.
           </h1>
           <p className="mb-8 leading-relaxed">
-            I am passionate about my work. Because I love what I do, I have a
-            steady source of motivation that drives me to do my best. In my last
-            job, this passion led me to challenge myself daily and learn new
-            skills that helped me to do better work.
+            A motivated individual who is good at problem-solving and
+            programming, with an emphasis on writing clean and maintainable
+            code. Experienced with data structures/algorithms and designing
+            optimal solutions, aspiring to make a career in software engineering
+            with a focus on full-stack development.
           </p>
           <div className="flex justify-center">
             <a
