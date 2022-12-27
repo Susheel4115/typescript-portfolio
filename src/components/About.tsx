@@ -20,13 +20,13 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-black font-mono text-center bg-green-900 border-0 py-2 px-6 focus:outline-none hover:bg-green-300 rounded-full text-sm"
+              className="inline-flex text-black font-mono text-center bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-300 rounded-full text-sm"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 font-mono bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded-full text-sm"
+              className="ml-4 inline-flex text-gray-400 font-mono bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-700 hover:text-white rounded-full text-sm"
             >
               See My Past Work
             </a>
