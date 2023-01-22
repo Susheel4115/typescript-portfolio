@@ -11,14 +11,14 @@ export const projects = [
     title: "React Quiz app",
     subtitle: "React typescript",
     description: "This is a quiz app",
-    image: "https://wallpaperaccess.com/full/3308617.png",
+    image: "https://images.pexels.com/photos/5063562/pexels-photo-5063562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://relaxed-clarke-04b2a5.netlify.app/",
   },
   {
     title: "Html and css portfolio",
     subtitle: "Built with html,css and vanilla js",
     description: "This is my other portfolio.",
-    image: "https://wallpaperaccess.com/full/5651999.jpg",
+    image: "https://images.pexels.com/photos/6535346/pexels-photo-6535346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://susheel4115.github.io/testupload/index.html",
   },
   {
@@ -26,7 +26,7 @@ export const projects = [
     subtitle: "With plain javascript.",
     description: "Todo app with plain javascript.",
     image:
-      "https://www.brijeshdalmia.com/wp-content/uploads/2017/12/To-do-List.jpg",
+      "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     link: "https://friendly-shaw-29438b.netlify.app/",
   },
 ];
