@@ -1,5 +1,6 @@
 import React from "react";
-import { CameraIcon } from "./profile/User";
+// import { CameraIcon } from "./profile/User";
+import profile from "./profile/profile-pic.png"
 export default function About() {
   return (
     <section id="about">
@@ -33,7 +34,7 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block">
-          <CameraIcon />
+          <img src={profile} alt ="pic" className="rounded-full object-contain h-fit w-fit"/>
         </div>
       </div>
     </section>

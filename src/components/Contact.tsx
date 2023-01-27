@@ -1,9 +1,34 @@
 import React from "react";
-
+import {ChevronDoubleUpIcon} from "@heroicons/react/solid";
 export default function Contact() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
+  const [isVisible, setIsVisible] = React.useState(false);
+
+   // Top: 0 takes us all the way back to the top of the page
+  // Behavior: smooth keeps it smooth!
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
+  React.useEffect(() => {
+    // Button is displayed after scrolling for 500 pixels
+    const toggleVisibility = () => {
+      if (window.pageYOffset > 500) {
+        setIsVisible(true);
+      } else {
+        setIsVisible(false);
+      }
+    };
+
+    window.addEventListener("scroll", toggleVisibility);
+
+    return () => window.removeEventListener("scroll", toggleVisibility);
+  }, []);
 
   function encode(data: any) {
     return Object.keys(data)
@@ -124,7 +149,17 @@ export default function Contact() {
           >
             Submit
           </button>
+        
         </form>
+             {/* to go up */}
+              <div className="scroll-to-top">
+            {isVisible && (
+              <div onClick={scrollToTop}>
+                <ChevronDoubleUpIcon className="mx-auto mt-96 inline-block w-10 ml-10 cursor-pointer text-blue-200 hover:text-white"/>
+              </div>
+            )}
+          </div>
+      
       </div>
     </section>
   );
