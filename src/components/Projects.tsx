@@ -10,7 +10,7 @@ export default function Projects(props: any) {
     >
       <div className="container px-5 py-10 mx-auto text-center lg:px-40">
         <div className="flex flex-col w-full mb-20">
-          <CodeIcon className="mx-auto inline-block w-10 mb-4" />
+          <CodeIcon className="mx-auto inline-block w-10 mb-4 hover:rotate-360 transition duration-1000  ease-in-out cursor-pointer" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
             Apps I've Built
           </h1>
@@ -22,7 +22,7 @@ export default function Projects(props: any) {
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative">
+              <div className="flex relative hover:rotate-360 transition duration-1000  ease-in-out">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"

@@ -155,7 +155,7 @@ export default function Contact() {
               <div className="scroll-to-top">
             {isVisible && (
               <div onClick={scrollToTop}>
-                <ChevronDoubleUpIcon className="mx-auto mt-96 inline-block w-10 ml-10 cursor-pointer text-blue-200 hover:text-white"/>
+                <ChevronDoubleUpIcon className="mx-auto mt-96 inline-block w-10 ml-10 cursor-pointer text-blue-200 hover:text-white hover:rotate-360 transition duration-1000  ease-in-out"/>
               </div>
             )}
           </div>

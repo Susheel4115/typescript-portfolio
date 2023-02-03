@@ -21,20 +21,21 @@ export default function About() {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex text-black font-mono text-center bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-300 rounded-full text-sm"
+              className="inline-flex text-black font-mono text-center bg-green-600 border-0 py-2 px-8 focus:outline-none hover:bg-green-300 rounded-full text-sm hover:rotate-360 transition duration-1000  ease-in-out"
             >
               Work With Me
             </a>
             <a
               href="#projects"
-              className="ml-4 inline-flex text-gray-400 font-mono bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-700 hover:text-white rounded-full text-sm "
+              className="ml-4 inline-flex text-gray-400 font-mono bg-gray-800 border-0 py-2 px-8 focus:outline-none hover:bg-gray-700 hover:text-white rounded-full text-sm hover:rotate-360 transition duration-1000  ease-in-out"
             >
               See My Past Work
             </a>
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 hidden md:block">
-          <img src={profile} alt ="pic" className="rounded-full object-contain h-fit w-fit"/>
+          <img src={profile} alt ="pic" className="rounded-full object-contain h-96 w-fit hover:rotate-360 transition duration-1000  ease-in-out cursor-pointer"/>
+          {/* <a href="" */}
         </div>
       </div>
     </section>

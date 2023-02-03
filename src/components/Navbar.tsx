@@ -8,7 +8,7 @@ export default function Navbar() {
           href="#about"
         >
           
-          <a href="#about" className="ml-3 text-xl text-blue-100 hover:text-white">
+          <a href="#about" className="ml-3 text-xl text-blue-100 hover:text-white cursor-pointer">
             Susheel Kumar
           </a>
           
