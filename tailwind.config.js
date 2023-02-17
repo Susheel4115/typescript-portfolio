@@ -5,6 +5,8 @@ module.exports = {
       rotate: {
         '360': '360deg',
         '720' : '720deg',
+        '5' : '5deg',
+        '2' : '2deg',
       }
     },
   },

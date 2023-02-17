@@ -22,7 +22,7 @@ export default function Projects(props: any) {
               key={project.image}
               className="sm:w-1/2 w-100 p-4"
             >
-              <div className="flex relative hover:rotate-360 transition duration-1000  ease-in-out">
+              <div className="flex relative hover:rotate-5 transition duration-1000  ease-in-out">
                 <img
                   alt="gallery"
                   className="absolute inset-0 w-full h-full object-cover object-center rounded-lg"
