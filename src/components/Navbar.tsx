@@ -1,4 +1,5 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
+
 export default function Navbar() {
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10 font-mono">
@@ -21,7 +22,7 @@ export default function Navbar() {
             Skills
           </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
-            Testimonials
+            Competative_Programming
           </a>
         </nav>
         <a
