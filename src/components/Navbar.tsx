@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
 import { useState } from "react";
 export default function Navbar() {
   const [showModal, setShowModal] = useState(false);
@@ -21,25 +20,25 @@ export default function Navbar() {
             href="#about"
             className="ml-3 text-xl text-blue-100 hover:text-white cursor-pointer"
           >
-            Susheel Kumar
+            Susheel Kumar👩‍💻
           </a>
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center md:justify-evenly ">
           <a href="#projects" className="mr-5 hover:text-white sm:mt-1">
-            Past Work
+            Past Work👷‍♂️
           </a>
           <a href="#skills" className="mr-5 hover:text-white">
-            Skills
+            Skills🤹‍♀️
           </a>
           <a href="#testimonials" className="mr-5 hover:text-white">
-            Competative_Programming
+            Competative Programming🦹‍♀️
           </a>
           <a
             href="#resume"
             onClick={handleShowModal}
             className="mr-5 hover:text-white"
           >
-            Resume
+            Resume💌
           </a>
           {showModal && (
             <div className="fixed top-0 left-0 w-full h-full bg-gray-900 bg-opacity-50 z-50 flex items-center justify-center">
@@ -66,8 +65,7 @@ export default function Navbar() {
           href="#contact"
           className="flex-inline items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-0  mr-5 hidden md:block"
         >
-          Hire Me
-          <ArrowRightIcon className="w-4 h-4 ml-20 -mr-10 -mt-5" />
+          Hire Me🙌
         </a>
       </div>
     </header>
