@@ -8,21 +8,16 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm{" "}
-            <span className="font-serif text-emerald-400">Susheel 🤪</span>.
+            <span className="font-serif text-emerald-400">Susheel 🤍</span>.
             <br className="hidden lg:inline-block" />I love to build amazing
             apps and do solving questions in leetcode😁.
           </h1>
           <p className="mb-8 leading-relaxed">
-            <span className="text-purple-500">
-              A motivated individual who is good at problem-solving and
-              programming, with an emphasis on writing clean and maintainable
-              code. Experienced with
-            </span>{" "}
-            <span className="text-emerald-600">
-              data structures/algorithms and designing optimal solutions,
-              aspiring to make a career in software engineering with a focus on
-              full-stack development.
-            </span>
+            A motivated individual who is good at problem-solving and
+            programming, with an emphasis on writing clean and maintainable
+            code. Experienced with data structures/algorithms and designing
+            optimal solutions, aspiring to make a career in software engineering
+            with a focus on full-stack development.
           </p>
           <div className="flex justify-center">
             <a
