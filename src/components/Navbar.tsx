@@ -1,4 +1,5 @@
 import { useState } from "react";
+import profile from "./profile/profile-pic.png";
 export default function Navbar() {
   const [showModal, setShowModal] = useState(false);
 
@@ -11,32 +12,35 @@ export default function Navbar() {
   };
   return (
     <header className="fixed bg-gray-800 sm:sticky top-0 z-10 font-mono">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+      <div className="container mx-auto flex flex-wrap p-4  md:flex-row items-center">
+        <img
+          src={profile}
+          alt=""
+          className="h-6 w-6 rounded-full mb-4 md:mb-0 ml-5"
+        />
         <a
-          className="title-font font-medium text-white mb-4 md:mb-0"
+          className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl text-blue-100 hover:text-white cursor-pointer"
           href="#about"
         >
-          <a
-            href="#about"
-            className="ml-3 text-xl text-blue-100 hover:text-white cursor-pointer"
-          >
-            Susheel Kumar👩‍💻
-          </a>
+          Susheel Kumar👩‍💻
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center md:justify-evenly ">
-          <a href="#projects" className="mr-5 hover:text-white sm:mt-1">
+          <a href="#projects" className="mr-8 ml-5 hover:text-white">
             Past Work👷‍♂️
           </a>
-          <a href="#skills" className="mr-5 hover:text-white">
+          <a href="#skills" className="mr-8 hover:text-white">
             Skills🤹‍♀️
           </a>
-          <a href="#testimonials" className="mr-5 hover:text-white">
+          <a
+            href="#testimonials"
+            className="mr-8 hover:text-white hidden sm:inline-block"
+          >
             Competative Programming🦹‍♀️
           </a>
           <a
             href="#resume"
             onClick={handleShowModal}
-            className="mr-5 hover:text-white"
+            className="mr-8 hover:text-white"
           >
             Resume💌
           </a>
