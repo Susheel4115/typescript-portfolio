@@ -16,11 +16,11 @@ export default function Navbar() {
         <img
           src={profile}
           alt=""
-          className="h-6 w-6 rounded-full mb-4 md:mb-0 ml-5"
+          className="h-8 w-8 rounded-full mb-4 mt-3 md:mb-0 ml-5"
         />
         <a
-          className="title-font font-medium text-white mb-4 md:mb-0 ml-3 text-xl text-blue-100 hover:text-white cursor-pointer"
-          href="#about"
+          className="title-font font-medium text-white mt-3 md:mb-0 ml-3 text-xl text-blue-100 hover:text-white cursor-pointer"
+          href="https://www.linkedin.com/in/suseelkumar115/"
         >
           Susheel Kumar👩‍💻
         </a>
@@ -28,7 +28,7 @@ export default function Navbar() {
           <a href="#projects" className="mr-8 ml-5 hover:text-white">
             Past Work👷‍♂️
           </a>
-          <a href="#skills" className="mr-8 hover:text-white">
+          <a href="#skills" className="mr-8 hover:text-white ">
             Skills🤹‍♀️
           </a>
           <a
@@ -49,11 +49,10 @@ export default function Navbar() {
               <div className="bg-white rounded-lg p-6 max-w-md mx-auto">
                 <h2 className="text-xl font-bold mb-4">Resume</h2>
                 <p>
-                  Please drop me the requirements you're looking for in the
-                  contact form(you can find when you click hire me link in the
-                  navbar) with your gmail. So that I can get a mail from you and
-                  I will reply back to that mail with my resume and cover
-                  letter.💌
+                  Please drop me the requirements exactly what you're looking
+                  for in the contact form with your gmail. So that I can get a
+                  mail from you and I will reply back to that mail with my
+                  resume.💌
                 </p>
                 <button
                   className="bg-green-800 text-white rounded p-1 pr-5 pl-5   ml-1 mt-4"
